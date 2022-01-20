@@ -1,0 +1,47 @@
+html, body {
+  min-height: 100%;
+}
+
+.col {
+  border: 5px solid white;
+  background-color: cornflowerblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row {
+  margin: 0;
+  color: white;
+  font-weight: bold;
+}
+
+.row-upper {
+  height: 300px;
+}
+
+.row-inner {
+  width: 50%;
+}
+
+.row-lower {
+  height: 200px;
+}
+
+.col-thin {
+  height: 20%;
+}
+
+.col-thick {
+  height: 80%;
+}
+
+.col-wide {
+  height: 50%;
+}
